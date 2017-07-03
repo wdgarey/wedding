@@ -4,7 +4,7 @@ include("../includes/header.php");
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Wesley &amp; Victoria</h1>
+                <h1 id="homeHeading">Victoria &amp; Wesley</h1>
                 <hr>
                 <p>October 7, 2017 at St. Peter's Roman Catholic Church in Harpers Ferry, West Virginia</p>
                 <h3 id="rsvp"><a style="color:white;" href="../register">Click here to RSVP</a></h3>
@@ -18,7 +18,7 @@ include("../includes/header.php");
                     <h2 class="section-heading">About Us</h2>
                     <hr class="light">
                     <p class="text-faded">
-                      Wesley and Victoria both attended Urbana High School from 2007 - 2011.
+                      Victoria and Wesley both attended Urbana High School from 2007 - 2011.
                       But, they only first met in 2010 in an advanced English class.
                       Victoria was swoon by Wesley's dashing good looks in his Varsity
                       Football uniform, while Wesley couldn't help but notice the classic

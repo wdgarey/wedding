@@ -82,6 +82,7 @@ class Controller {
     if (strlen($msg) == 0) {
       $guest = $db->guestView($keycode);
       if ($guest != NULL && !is_null($guest['attending'])) {
+        $alias = $guest['alias'];
         $msg = "Registration for \"$alias\" has already been completed.";
       } else {
         $rows = $db->guestUpdate($keycode, $attending, $partySize, $email, $phone);
