@@ -9,7 +9,7 @@ include ("../includes/header.php");
 <?php
 if (isset($msg) && strlen($msg) > 0) {
 ?>
-  <h3><span style="color:red; background-color:white;"><?php echo($msg); ?></span></h3>
+  <h3><span style="color:red; background-color:white;"><?php echo(htmlspecialchars($msg)); ?></span></h3>
 <?php
 }
 ?>
@@ -26,14 +26,16 @@ if ($loggedIn) {
                       <hr />
                       <form action="index.php?action=guestupdate" method="POST" onsubmit="return validateAcceptForm();">
                         <input type="hidden" name="keycode" value="<?php echo($keycode); ?>" />
-                        <h4><span style="font-style:italic;font-weight:bold;"><?php echo($alias); ?></span>, graciously <span style="font-style:italic;">accepts</span>.</h4>
+                        <h4><span style="font-style:italic;font-weight:bold;"><?php echo(htmlspecialchars($alias)); ?></span>, graciously <span style="font-style:italic;">accept</span>.</h4>
                         <br />
-                        <label class="inlabel">Party's Size: </label><input type="number" name="partysize" id="partysize" min="1" max="10" step="1" style="color:black" class="inbox" placeholder="(# of attendees)" value="<?php echo($partySize); ?>" required />
+                        <label class="inlabel">Party's Size(*): </label><input type="number" name="partysize" id="partysize" min="1" max="10" step="1" style="color:black" class="inbox" placeholder="(# of attendees)" value="<?php echo($partySize); ?>" required />
                         <br />
-                        <label class="inlabel">Email: </label><input type="email" name="email" id="email" style="color:black" placeholder="me@there.com" class="inbox" value="<?php echo($email); ?>" required />
+                        <label class="inlabel">Phone(*): </label><input type="text" name="phone" id="phone" maxlength=10 style="color:black" class="inbox" placeholder="##########" value="<?php echo($phone); ?>" required />
                         <br />
-                        <label class="inlabel">Phone: </label><input type="text" name="phone" id="phone" maxlength=10 style="color:black" class="inbox" placeholder="##########" value="<?php echo($phone); ?>" required />
+                        <label class="inlabel">Email: </label><input type="email" name="email" id="email" style="color:black" placeholder="me@there.com" class="inbox" value="<?php echo($email); ?>" />
                         <br />
+                        <br />
+                        <p style="color:white;">(*) indicates that the field is required.</p>
                         <br />
                         <input type="submit" name="accept" value="Accept" style="color: black;" />
                       </form>
@@ -45,13 +47,15 @@ if ($loggedIn) {
                       <hr />
                       <form action="index.php?action=guestupdate" method="POST" onsubmit="return confirm('Are you sure you wish to decline?');">
                         <input type="hidden" name="keycode" value="<?php echo($keycode); ?>" />
-                        <h4><span style="font-style:italic;font-weight:bold;"><?php echo($alias); ?></span>, kindly <span style="font-style:italic;">declines</span>.</h4>
+                        <h4><span style="font-style:italic;font-weight:bold;"><?php echo(htmlspecialchars($alias)); ?></span>, kindly <span style="font-style:italic;">decline</span>.</h4>
                         <br />
                         <label class="inlabel"> </label>
                         <br />
                         <label class="inlabel"> </label>
                         <br />
                         <label class="inlabel"> </label>
+                        <br />
+                        <br />
                         <br />
                         <br />
                         <input type="submit" name="decline" value="Decline" style="color: black;" />
@@ -71,7 +75,7 @@ if ($loggedIn) {
   <label>Keycode: </label><input type="number" name="keycode" style="color:black" value="<?php echo($keycode); ?>" required />
   <br />
   <br />
-  <input type="submit" value="Login" style="color:black"></input>
+  <input type="submit" value="Login" style="color:black" />
 </form>
 <?php
 }

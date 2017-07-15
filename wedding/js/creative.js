@@ -92,7 +92,8 @@ function validatePhone(phone) {
 function validateEmail(email) {
   var valid;
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
-  if(email.match(mailformat))   {  
+  if(email.trim().length == 0
+    || email.match(mailformat))   {  
     valid = true;  
   } else {  
     valid = false;  

@@ -1,6 +1,6 @@
 <?php
 include("model.php");
-error_reporting(E_ALL);
+error_reporting(0);
 class Controller {
   public const VALID_EMAIL_PATTERN = "/^[^@]*@[^@]*\.[^@]*$/";
   public const VALID_PHONE_PATTERN = "/^[0-9]{10}$/";
@@ -71,8 +71,6 @@ class Controller {
         if (!preg_match(Controller::VALID_EMAIL_PATTERN, $email)) {
           $msg .= "* Invalid email given\n";
         }
-      } else {
-        $msg .= "* Email not given\n";
       }
     } else {
       $partySize = NULL;
