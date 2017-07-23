@@ -53,8 +53,7 @@ class Controller {
     }
     if (!$this->isLoggedIn() && $action != "login"
       && $action != "loginprocess") {
-      $url = 'index.php?action=login';
-      $this->redirect($url);
+      $this->redirect('index.php?action=login');
     } else {
       switch ($action) {
       case 'login' :
@@ -70,7 +69,7 @@ class Controller {
         $this->guestsView();
         break;
       default:
-        $this->redirect('../index.php');
+        $this->redirect('index.php?action=login');
         break;
       }
     }
