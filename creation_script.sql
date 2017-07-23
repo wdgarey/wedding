@@ -1,5 +1,5 @@
-DROP USER 'weddingwebuser'@'localhost';
-DROP DATABASE IF EXISTS wedding;
+#DROP USER 'weddingwebuser'@'localhost';
+#DROP DATABASE IF EXISTS wedding;
 
 CREATE DATABASE wedding;
 
@@ -14,11 +14,20 @@ CREATE TABLE wedding.guest
     CONSTRAINT GUEST_PK PRIMARY KEY(keycode)
 ) ENGINE=InnoDB;
 
-INSERT INTO wedding.guest(keycode, alias) VALUES (12345, 'Mr. Garey');
+CREATE TABLE wedding.user
+(
+	id INT NOT NULL UNIQUE AUTO_INCREMENT,
+	username VARCHAR(32),
+	password VARCHAR(40) NOT NULL,
+  CONSTRAINT USER_PK PRIMARY KEY (username)
+) ENGINE=InnoDB;
+
+INSERT INTO wedding.user (id, username, password) VALUES
+  (1, 'admin', Sha1('weddingwebsite1234'));
 
 CREATE USER 'weddingwebuser'@'localhost' IDENTIFIED BY 'weddingwebuser1234';
 
-GRANT SELECT, UPDATE ON wedding.guest TO 'weddingwebuser'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+GRANT SELECT, UPDATE ON wedding.* TO 'weddingwebuser'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 
 INSERT INTO wedding.guest (keycode, alias) VALUES
 (12806, ''),

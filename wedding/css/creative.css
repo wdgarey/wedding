@@ -3,6 +3,25 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.datatable th
+{
+  text-align:center;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+.datatable tbody tr td
+{
+  background-color: #CCCCCC;
+  padding: 3px;
+}
+
+.datatable tbody tr:hover td
+{
+  background-color: #EEEEEE;
+}
+
 .regdiv {
   height:100%;
   padding:5px;
