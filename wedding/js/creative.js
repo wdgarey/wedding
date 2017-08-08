@@ -76,6 +76,23 @@ function myMap() {
           map: map,
           title: 'St. Peter\'s Roman Catholic Church'
         });
+
+  receptionMap();
+}
+
+function receptionMap() {
+        var myLatLng = {lat: 39.297148, lng: -77.851232};
+
+        var map = new google.maps.Map(document.getElementById('receptionmap'), {
+          zoom: 16,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Ballroom located at Hollywood Casino at Charles Town Races'
+        });
 }
 
 function validatePhone(phone) {

@@ -45,13 +45,13 @@
                         <a class="page-scroll" href="../main/index.php#us">Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../main/index.php#portfolio">Portfolio</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="../main/index.php#location">Location</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../main/index.php#hotel">Hotel Info</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../main/index.php#reception">Reception</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../main/index.php#contact">Contact</a>

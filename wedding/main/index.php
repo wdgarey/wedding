@@ -29,38 +29,16 @@ include("../includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
-    <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-md-6">
                     <a href="../img/portfolio/fullsize/1.jpg" class="portfolio-box">
                         <img src="../img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-md-6">
                     <a href="../img/portfolio/fullsize/2.jpg" class="portfolio-box">
                         <img src="../img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="../img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="../img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="../img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="../img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="../img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="../img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="../img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="../img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -70,8 +48,9 @@ include("../includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Harpers Ferry</h2>
+                    <h2 class="section-heading">Wedding Location</h2>
                     <hr class="primary">
+                    <h3>Harpers Ferry</h3>
                     <a target="_blank" href="http://stjameswv.org/about-us/chapel-of-st-peter/">Harpers Ferry National Historical Park [click here]</a>
                     <br />
                     110 Church St
@@ -145,6 +124,33 @@ include("../includes/header.php");
                     <a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/west-virginia/hampton-inn-and-suites-charles-town-IADCTHX/index.html">
                       Hampton Inn [click here]
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reception">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Reception Information</h2>
+                    <hr class="primary">
+                    <p>Time: 3:00pm to 7:00pm</p>
+                    <hr class="primary">
+                    <p>Where: <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/">Ballrom located a Hollywood Casino at Charles Town Races[click here]</a></p>
+                    <hr class="primary">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <div class="service-box">
+                                <h3>Reception Directions</h3>
+                                <div id="receptionmap" class="disp"></div>
+                                <p class="text-muted"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Ballroom Location</h3>
+                    <div class="inst">
+                      <img src="../img/casino_entrance.png" class="img-responsive" alt="Reception entrance instructions" />
+                    </div>
                 </div>
             </div>
         </div>
