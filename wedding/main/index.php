@@ -145,7 +145,7 @@ include("../includes/header.php");
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Reception Information</h2>
                     <hr class="primary" />
-                    <p>Time: 3:00pm to 7:00pm</p>
+                    <p>Time: 3:00pm to 7:30pm</p>
                     <hr class="primary" />
                     <p>Where: <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/">Ballrom located a Hollywood Casino at Charles Town Races[click here]</a></p>
                     <hr class="primary">
