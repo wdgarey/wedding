@@ -8,7 +8,7 @@ include("../includes/header.php");
                 <hr />
                 <p>October 7, 2017 at St. Peter's Roman Catholic Church in Harpers Ferry, West Virginia</p>
                 <h3 id="rsvp"><a style="color:white;" href="../register">Click here to RSVP</a></h3>
-                <br />
+                <h3><a style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Click here for Registry</a></h3>
                 <br />
                 <br />
                 <br />
@@ -17,7 +17,6 @@ include("../includes/header.php");
                 <h2>Important Information</h2>
                 <hr />
                 <h4>Formal dress attire</h4>
-                        
                 <h4><a style="color:white" class="page-scroll" href="../main/index.php#location">Click here for parking information</a></h4>
             </div>
         </div>
@@ -147,7 +146,7 @@ include("../includes/header.php");
                     <hr class="primary" />
                     <p>Time: 3:00pm to 7:30pm</p>
                     <hr class="primary" />
-                    <p>Where: <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/">Ballrom located a Hollywood Casino at Charles Town Races[click here]</a></p>
+                    <p>Where: <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/">Ballrom located a Hollywood Casino at Charles Town Races [click here]</a></p>
                     <hr class="primary">
                     <div class="row text-center">
                         <div class="col-lg-12">
