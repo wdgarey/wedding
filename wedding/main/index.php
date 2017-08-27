@@ -6,9 +6,9 @@ include("../includes/header.php");
             <div class="header-content-inner">
                 <h1 id="homeHeading">Victoria &amp; Wesley</h1>
                 <hr />
-                <p>October 7, 2017 at St. Peter's Roman Catholic Church in Harpers Ferry, West Virginia</p>
-                <h3 id="rsvp"><a style="color:white;" href="../register">Click here to RSVP</a></h3>
-                <h3><a style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Click here for Registry</a></h3>
+                <p>October 7, 2017 at St. Peter's Historic Roman Catholic Church in Harpers Ferry, WV</p>
+                <h3 id="rsvp"><a style="color:white;" href="../register">RSVP [click here]</a></h3>
+                <h3><a style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Registry [click here]</a></h3>
                 <br />
                 <br />
                 <br />
@@ -17,7 +17,7 @@ include("../includes/header.php");
                 <h2>Important Information</h2>
                 <hr />
                 <h4>Formal dress attire</h4>
-                <h4><a style="color:white" class="page-scroll" href="../main/index.php#location">Click here for parking information</a></h4>
+                <h4><a style="color:white" class="page-scroll" href="../main/index.php#location">Parking information [click here]</a></h4>
             </div>
         </div>
     </header>
