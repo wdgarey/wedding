@@ -8,7 +8,7 @@ include("../includes/header.php");
                 <hr />
                 <p>October 7, 2017 at St. Peter's Historic Roman Catholic Church in Harpers Ferry, WV</p>
                 <h3 id="rsvp"><a style="color:white;" href="../register">RSVP [click here]</a></h3>
-                <h3><a style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Registry [click here]</a></h3>
+                <h3><a target="_blank" style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Registry [click here]</a></h3>
                 <br />
                 <br />
                 <br />
