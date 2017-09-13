@@ -52,7 +52,7 @@ class Controller {
     if ($attending == true) {
       if ($this->getArg('partysize') != NULL) {
         $partySize = $this->getArg('partysize');
-        if (!is_numeric($partySize) || $partySize < 1 || $partySize > 10) {
+        if (!is_numeric($partySize) || $partySize < 0 || $partySize > 10) {
           $msg .= "* Invalid party size given\n";
         }
       } else {

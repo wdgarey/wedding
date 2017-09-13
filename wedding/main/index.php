@@ -6,9 +6,8 @@ include("../includes/header.php");
             <div class="header-content-inner">
                 <h1 id="homeHeading">Victoria &amp; Wesley</h1>
                 <hr />
-                <p>October 7, 2017 at St. Peter's Historic Roman Catholic Church in Harpers Ferry, WV</p>
-                <h3 id="rsvp"><a style="color:white;" href="../register">RSVP [click here]</a></h3>
-                <h3><a target="_blank" style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Registry [click here]</a></h3>
+                <p style="color:white">October 7, 2017 at 12:30pm in Harpers Ferry, WV</p>
+                <h3><a style="color:white" class="page-scroll" href="../main/index.php#location">*** IMPORTANT PARKING INFO [click here] ***</a></h3>
                 <br />
                 <br />
                 <br />
@@ -17,7 +16,7 @@ include("../includes/header.php");
                 <h2>Important Information</h2>
                 <hr />
                 <h4>Formal dress attire</h4>
-                <h4><a style="color:white" class="page-scroll" href="../main/index.php#location">Parking information [click here]</a></h4>
+                <h4><a target="_blank" style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Registry [click here]</a></h4>
             </div>
         </div>
     </header>
@@ -61,29 +60,33 @@ include("../includes/header.php");
                     <h2 class="section-heading">Wedding Location</h2>
                     <hr class="primary">
                     <h3>Harpers Ferry</h3>
-                    <a target="_blank" href="http://stjameswv.org/about-us/chapel-of-st-peter/">Harpers Ferry National Historical Park [click here]</a>
+                    <a target="_blank" href="https://www.google.com/maps/place/Harpers+Ferry+Middle+School/@39.3228346,-77.7561169,15z/data=!4m5!3m4!1s0x0:0x97baf5db18a01d71!8m2!3d39.322422!4d-77.7563513">Harpers Ferry Middle School [click here]</a>
                     <br />
-                    110 Church St
+                    1710 West Washington Street
                     <br />
                     Harpers Ferry, WV 25425
                     <br />
-                    (304) 725-5558
                     <hr class="primary">
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
-                        <h3>Church Directions</h3>
+                        <h3>Parking Lot Location</h3>
                         <div id="map" class="disp"></div>
                         <p class="text-muted"></p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="service-box">
-                        <h3>Church Parking</h3>
+                        <h3>Important Parking Info</h3>
+                        <h4>There is <mark>NO PARKING</mark> at the <mark>CHURCH</mark>.</h4>
+                        Guests <mark>MUST</mark> park at
+                        <a target="_blank" href="https://www.google.com/maps/place/Harpers+Ferry+Middle+School/@39.3228346,-77.7561169,15z/data=!4m5!3m4!1s0x0:0x97baf5db18a01d71!8m2!3d39.322422!4d-77.7563513">Harpers Ferry Middle School [click here]</a>
+                        and then <mark>CATCH a PRIVATE SHUTTLE</mark> to the church.
+                        The shuttle service will <mark>BEGIN</mark> at <mark>11:45am</mark> and wil <mark>END</mark> at <mark>12:45pm</mark>.
+                        Returning shuttle service will begin after the ceremony.
                         <!--<iframe class="disp" src="http://www.youtube.com/embed/E1hHhl-CG3k" frameborder="0" allowfullscreen></iframe>-->
-                        Video coming soon!
                         <p class="text-muted"></p>
                     </div>
                 </div>

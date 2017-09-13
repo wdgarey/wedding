@@ -64,10 +64,10 @@
 })(jQuery); // End of use strict
 
 function myMap() {
-        var myLatLng = {lat: 39.3227511, lng: -77.7312803};
+        var myLatLng = {lat: 39.3228346, lng: -77.7561169};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
+          zoom: 15.25,
           center: myLatLng
         });
 
@@ -120,7 +120,7 @@ function validateEmail(email) {
 
 function validatePartySize(size) {
   var n = parseFloat(size);
-  var valid = (!isNaN(n) && n >= 1 && n <= 10);
+  var valid = (!isNaN(n) && n >= 0 && n <= 10);
   return valid;
 }
 

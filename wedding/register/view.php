@@ -28,7 +28,7 @@ if ($loggedIn) {
                         <input type="hidden" name="keycode" value="<?php echo($keycode); ?>" />
                         <h4><span style="font-style:italic;font-weight:bold;"><?php echo(htmlspecialchars($alias)); ?></span>, graciously <span style="font-style:italic;">accept</span>.</h4>
                         <br />
-                        <label class="inlabel">Party's Size(*): </label><input type="number" name="partysize" id="partysize" min="1" max="10" step="1" style="color:black" class="inbox" placeholder="(# of attendees)" value="<?php echo($partySize); ?>" required />
+                        <label class="inlabel">Party's Size(*): </label><input type="number" name="partysize" id="partysize" min="0" max="10" step="1" style="color:black" class="inbox" placeholder="(# of attendees)" value="<?php echo($partySize); ?>" required />
                         <br />
                         <label class="inlabel">Phone(*): </label><input type="text" name="phone" id="phone" maxlength=10 style="color:black" class="inbox" placeholder="##########" value="<?php echo($phone); ?>" required />
                         <br />
