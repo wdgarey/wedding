@@ -20,76 +20,32 @@ include("../includes/header.php");
             </div>
         </div>
     </header>
-    <section class="bg-primary" id="us">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">About Us</h2>
-                    <hr class="light">
-                    <p class="text-faded">
-                      Victoria and Wesley both attended Urbana High School from 2007 - 2011.
-                      But, they only first met in 2010 in an advanced English class.
-                      Victoria was swoon by Wesley's dashing good looks in his Varsity
-                      Football uniform, while Wesley couldn't help but notice the classic
-                      beauty sitting a short distance from him. After the two were paired up
-                      for a few assignments, and attended a JV Football game together, they
-                      went on their first official date.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-md-6">
-                    <a href="../img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="../img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="../img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="../img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
     <section id="location">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Wedding Location</h2>
+                    <h2 class="section-heading">Parking Information</h2>
                     <hr class="primary">
-                    <h3>Harpers Ferry</h3>
-                    <a target="_blank" href="https://www.google.com/maps/place/Harpers+Ferry+Middle+School/@39.3228346,-77.7561169,15z/data=!4m5!3m4!1s0x0:0x97baf5db18a01d71!8m2!3d39.322422!4d-77.7563513">Harpers Ferry Middle School [click here]</a>
-                    <br />
-                    1710 West Washington Street
-                    <br />
-                    Harpers Ferry, WV 25425
-                    <br />
-                    <hr class="primary">
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-6 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Parking Lot Location</h3>
-                        <div id="map" class="disp"></div>
-                        <p class="text-muted"></p>
+                    <div class="inst">
+                      <img style="margin:auto;" src="../img/parking1.jpg" class="img-responsive" alt="parking slide 1">
+                      <hr class="dark" />
+                      <img style="margin:auto;" src="../img/parking2.jpg" class="img-responsive" alt="parking slide 2">
+                      <hr class="dark" />
+                      <img style="margin:auto;" src="../img/parking3.jpg" class="img-responsive" alt="parking slide 3">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 text-center">
-                    <div class="service-box">
-                        <h3>Important Parking Info</h3>
-                        There is <mark>NO PARKING</mark> at the <mark>CHURCH</mark>.
-                        <br />
-                        <br />
-                        Guests <mark>MUST</mark> park at
-                        <a target="_blank" href="https://www.google.com/maps/place/Harpers+Ferry+Middle+School/@39.3228346,-77.7561169,15z/data=!4m5!3m4!1s0x0:0x97baf5db18a01d71!8m2!3d39.322422!4d-77.7563513">Harpers Ferry Middle School [click here]</a>
-                        and then <mark>CATCH a PRIVATE SHUTTLE</mark> to the church.
-                        The shuttle service will <mark>BEGIN</mark> at <mark>11:45am</mark> and wil <mark>END</mark> at <mark>12:45pm</mark>.
-                        Returning shuttle service will begin after the ceremony.
-                        <!--<iframe class="disp" src="http://www.youtube.com/embed/E1hHhl-CG3k" frameborder="0" allowfullscreen></iframe>-->
-                        <p class="text-muted"></p>
+            </div>
+        </div>
+    </section>
+    <section id="reception">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Reception Information</h2>
+                    <hr class="primary" />
+                    <hr class="primary">
+                    <div class="inst">
+                      <img style="margin:auto;" src="../img/casino_entrance.jpg" class="img-responsive" alt="Reception entrance instructions" />
                     </div>
                 </div>
             </div>
@@ -139,34 +95,6 @@ include("../includes/header.php");
                     <a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/west-virginia/hampton-inn-and-suites-charles-town-IADCTHX/index.html">
                       Hampton Inn [click here]
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="reception">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Reception Information</h2>
-                    <hr class="primary" />
-                    <p>Time: 3:00pm to 7:30pm</p>
-                    <hr class="primary" />
-                    <p>Where: <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/">Ballrom located a Hollywood Casino at Charles Town Races [click here]</a></p>
-                    <hr class="primary">
-                    <div class="row text-center">
-                        <div class="col-lg-12">
-                            <div class="service-box">
-                                <h3>Reception Directions</h3>
-                                <div id="receptionmap" class="disp"></div>
-                                <p class="text-muted"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="primary" />
-                    <h3>Ballroom Location</h3>
-                    <div class="inst">
-                      <img src="../img/casino_entrance.png" class="img-responsive" alt="Reception entrance instructions" />
-                    </div>
                 </div>
             </div>
         </div>

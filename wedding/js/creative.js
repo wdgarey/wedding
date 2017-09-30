@@ -64,20 +64,7 @@
 })(jQuery); // End of use strict
 
 function myMap() {
-        var myLatLng = {lat: 39.3228346, lng: -77.7561169};
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: myLatLng
-        });
-
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'St. Peter\'s Roman Catholic Church'
-        });
-
-  receptionMap();
+  //receptionMap();
 }
 
 function receptionMap() {

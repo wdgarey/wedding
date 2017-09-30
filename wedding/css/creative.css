@@ -38,6 +38,7 @@
   text-align:left;
 }
 .inst {
+  text-align:center;
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -63,6 +64,11 @@ hr {
 }
 hr.light {
   border-color: white;
+}
+hr.dark {
+  border-color: black;
+  border-width: 3px;
+  max-width: 50px;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -99,7 +105,7 @@ p {
   color: rgba(0, 0, 0, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 aside {
   padding: 50px 0;

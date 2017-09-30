@@ -39,19 +39,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="../register">RSVP</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="../main/index.php#us">Us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="../main/index.php#location">Location</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="../main/index.php#hotel">Hotel Info</a>
+                        <a class="page-scroll" href="../main/index.php#location">Wedding</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../main/index.php#reception">Reception</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../main/index.php#hotel">Hotels</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="../main/index.php#contact">Contact</a>

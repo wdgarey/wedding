@@ -10,6 +10,6 @@
     <!-- Theme JavaScript -->
     <script src="../js/creative.js"></script>
     <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> -->
   </body>
 </html>
