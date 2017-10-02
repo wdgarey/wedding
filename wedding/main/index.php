@@ -7,7 +7,7 @@ include("../includes/header.php");
                 <h1 id="homeHeading">Victoria &amp; Wesley</h1>
                 <hr />
                 <p style="color:white">October 7, 2017 at 12:30pm in Harpers Ferry, WV</p>
-                <h3><a style="color:white" class="page-scroll" href="../main/index.php#location">IMPORTANT PARKING INFO [click here]</a></h3>
+                <h3><a style="color:white" class="page-scroll" href="../main/index.php#location">Important Guest Arrival Info (Car Pooling and Shuttle Bus) [click here]</a></h3>
                 <br />
                 <br />
                 <br />
@@ -24,14 +24,14 @@ include("../includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Parking Information</h2>
+                    <h2 class="section-heading">Important Guest Arrival Info (Car Pooling and Shuttle Bus) [click here]</h2>
                     <hr class="primary">
                     <div class="inst">
                       <img style="margin:auto;" src="../img/parking1.jpg" class="img-responsive" alt="parking slide 1">
                       <hr class="dark" />
-                      <img style="margin:auto;" src="../img/parking2.jpg" class="img-responsive" alt="parking slide 2">
-                      <hr class="dark" />
                       <img style="margin:auto;" src="../img/parking3.jpg" class="img-responsive" alt="parking slide 3">
+                      <hr class="dark" />
+                      <img style="margin:auto;" src="../img/parking2.jpg" class="img-responsive" alt="parking slide 2">
                     </div>
                 </div>
             </div>
@@ -44,9 +44,7 @@ include("../includes/header.php");
                     <h2 class="section-heading">Reception Information</h2>
                     <hr class="primary" />
                     <hr class="primary">
-                    <div class="inst">
-                      <img style="margin:auto;" src="../img/casino_entrance.jpg" class="img-responsive" alt="Reception entrance instructions" />
-                    </div>
+                    <img style="margin:auto;" src="../img/casino_entrance.jpg" class="img-responsive" alt="Reception entrance instructions" />
                 </div>
             </div>
         </div>
