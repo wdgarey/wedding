@@ -24,7 +24,7 @@ include("../includes/header.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Important Guest Arrival Info (Car Pooling and Shuttle Bus) [click here]</h2>
+                    <h2 class="section-heading">Important Guest Arrival Info (Car Pooling and Shuttle Bus)</h2>
                     <hr class="primary">
                     <div class="inst">
                       <img style="margin:auto;" src="../img/parking1.jpg" class="img-responsive" alt="parking slide 1">
@@ -32,6 +32,10 @@ include("../includes/header.php");
                       <img style="margin:auto;" src="../img/parking3.jpg" class="img-responsive" alt="parking slide 3">
                       <hr class="dark" />
                       <img style="margin:auto;" src="../img/parking2.jpg" class="img-responsive" alt="parking slide 2">
+                      <hr class="dark" />
+                      <h3>Car Pool Chart</h3>
+                      <h4><a href="../main/index.php#seating">Parking passes are color-coded [click here]</a></h4>
+                      <img style="margin:auto;" src="../img/parking4.jpg" class="img-responsive" alt="parking slide 4">
                     </div>
                 </div>
             </div>
@@ -45,6 +49,10 @@ include("../includes/header.php");
                     <hr class="primary" />
                     <hr class="primary">
                     <img style="margin:auto;" src="../img/casino_entrance.jpg" class="img-responsive" alt="Reception entrance instructions" />
+                    <div id="seating"> </div>
+                    <hr class="dark" />
+                    <h3>Seating Chart</h3>
+                    <img style="margin:auto;" src="../img/reception_seating.jpg" class="img-responsive" alt="Reception seating information" />
                 </div>
             </div>
         </div>
