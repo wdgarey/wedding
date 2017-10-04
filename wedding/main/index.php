@@ -6,7 +6,7 @@ include("../includes/header.php");
             <div class="header-content-inner">
                 <h1 id="homeHeading">Victoria &amp; Wesley</h1>
                 <hr />
-                <p style="color:white">October 7, 2017 at 12:30pm in Harpers Ferry, WV</p>
+                <p style="color:white">October 7, 2017 at 1:00pm in Harpers Ferry, WV</p>
                 <h3><a style="color:white" class="page-scroll" href="../main/index.php#location">Important Guest Arrival Info (Car Pooling and Shuttle Bus) [click here]</a></h3>
                 <br />
                 <br />
@@ -26,6 +26,8 @@ include("../includes/header.php");
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Important Guest Arrival Info (Car Pooling and Shuttle Bus)</h2>
                     <hr class="primary">
+                    <h3>We request that guests be seated no later than 12:45pm.</h3>
+                    <br />
                     <div class="inst">
                       <img style="margin:auto;" src="../img/parking1.jpg" class="img-responsive" alt="parking slide 1">
                       <hr class="dark" />
