@@ -106,7 +106,7 @@ class Controller {
   }
   public function handleRequest() {
     $action = "";
-    $this->unsecureConnection();
+    $this->secureConnection();
     $this->adjustQuotes();
     if ($this->getArg('action') != NULL) {
       $action = $this->getArg('action');
