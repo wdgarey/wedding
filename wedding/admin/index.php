@@ -25,7 +25,7 @@ class Controller {
     return $arg;
   }
   protected function getRequestedUri() {
-    $uri = urlencode($_SERVER['REQUEST_URI']);
+    $uri = $_SERVER['REQUEST_URI'];
     return $uri;
   }
   protected function guestsView() {
