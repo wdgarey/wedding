@@ -6,8 +6,9 @@ include("../includes/header.php");
             <div class="header-content-inner">
                 <h1 id="homeHeading">Victoria &amp; Wesley</h1>
                 <hr />
-                <p style="color:white">October 7, 2017 at 1:00pm in Harpers Ferry, WV</p>
-                <h3><a style="color:white" class="page-scroll" href="../main/index.php#location">Important Guest Arrival Info (Car Pooling and Shuttle Bus) [click here]</a></h3>
+                <p>October 7th, 2017 at St. Peter's Historic Roman Catholic Church in Harpers Ferry, WV</p>
+                <h3 id="rsvp"><a href="../register">RSVP</a></h3>
+                <h3><a target="_blank" href="https://www.pamperedchef.com/wl/IVS8j1">Registry</a></h3>
                 <br />
                 <br />
                 <br />
@@ -15,46 +16,67 @@ include("../includes/header.php");
                 <br />
                 <h2>Important Information</h2>
                 <hr />
-                <h4>Formal dress attire</h4>
-                <h4><a target="_blank" style="color:white" href="https://www.pamperedchef.com/wl/IVS8j1">Registry [click here]</a></h4>
+                <h3><a class="page-scroll" href="../main/index.php#location">Parking</a></h3>
             </div>
         </div>
     </header>
-    <section id="location">
+    <section class="bg-primary" id="us">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Important Guest Arrival Info (Car Pooling and Shuttle Bus)</h2>
-                    <hr class="primary">
-                    <h3>We request that guests be seated no later than 12:45pm.</h3>
-                    <br />
-                    <div class="inst">
-                      <img style="margin:auto;" src="../img/parking1.jpg" class="img-responsive" alt="parking slide 1">
-                      <hr class="dark" />
-                      <img style="margin:auto;" src="../img/parking3.jpg" class="img-responsive" alt="parking slide 3">
-                      <hr class="dark" />
-                      <img style="margin:auto;" src="../img/parking2.jpg" class="img-responsive" alt="parking slide 2">
-                      <hr class="dark" />
-                      <h3>Car Pool Chart</h3>
-                      <h4><a href="../main/index.php#seating">Parking passes are color-coded [click here]</a></h4>
-                      <img style="margin:auto;" src="../img/parking4.jpg" class="img-responsive" alt="parking slide 4">
-                    </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                    <hr class="light">
+                    <p class="text-faded">
+                      Victoria and Wesley both attended Urbana High School from 2007 - 2011.
+                      But, they only first met in 2010 in an advanced English class.
+                      Victoria was swoon by Wesley's dashing good looks in his Varsity
+                      Football uniform, while Wesley couldn't help but notice the classic
+                      beauty sitting a short distance from him. After the two were paired up
+                      for a few assignments, and attended a JV Football game together, they
+                      went on their first official date.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-md-6">
+                    <a href="../img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="../img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="../img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="../img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="reception">
+    <section id="location">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Reception Information</h2>
-                    <hr class="primary" />
+                    <h2 class="section-heading">Wedding Location</h2>
                     <hr class="primary">
-                    <img style="margin:auto;" src="../img/casino_entrance.jpg" class="img-responsive" alt="Reception entrance instructions" />
-                    <div id="seating"> </div>
-                    <hr class="dark" />
-                    <h3>Seating Chart</h3>
-                    <img style="margin:auto;" src="../img/reception_seating.jpg" class="img-responsive" alt="Reception seating information" />
+                    <h3>Harpers Ferry</h3>
+                    <a target="_blank" href="http://stjameswv.org/about-us/chapel-of-st-peter/">Harpers Ferry National Historical Park</a>
+                    <br />
+                    110 Church St
+                    <br />
+                    Harpers Ferry, WV 25425
+                    <br />
+                    (304) 725-5558
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12 text-center">
+                    <div class="service-box">
+                        <h3>Church Directions</h3>
+                        <div id="map" class="disp"></div>
+                        <p class="text-muted"></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,7 +95,7 @@ include("../includes/header.php");
                     free shuttle to/from the Casino.
                     <hr class="primary">
                     <a target="_blank" href="https://www.hiexpress.com/redirect?path=hd&brandCode=ex&localeCode=en&regionCode=1&hotelCode=cwvsr&_PMID=99801505&GPC=SWP&viewfullsite=true">
-                      Holiday Inn Express Charles Town [click here]
+                      Holiday Inn Express Charles Town
                     </a>
                     <br />
                     681 Flowing Springs Road
@@ -97,12 +119,40 @@ include("../includes/header.php");
                     <i>Other hotels include (with free shuttle to Casino):</i>
                     <br />
                     <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/Hotel.aspx">
-                      The INN AT CHARLES TOWN (Casino Hotel) [click here]
+                      The INN AT CHARLES TOWN (Casino Hotel)
                     </a>
                     <br />
                     <a target="_blank" href="http://hamptoninn3.hilton.com/en/hotels/west-virginia/hampton-inn-and-suites-charles-town-IADCTHX/index.html">
-                      Hampton Inn [click here]
+                      Hampton Inn
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reception">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Reception Information</h2>
+                    <hr class="primary" />
+                    <p>Time: 3:00pm to 7:30pm</p>
+                    <hr class="primary" />
+                    <p>Where: <a target="_blank" href="http://www.hollywoodcasinocharlestown.com/">Ballrom located a Hollywood Casino at Charles Town Races</a></p>
+                    <hr class="primary">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <div class="service-box">
+                                <h3>Reception Directions</h3>
+                                <div id="receptionmap" class="disp"></div>
+                                <p class="text-muted"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="primary" />
+                    <h3>Ballroom Location</h3>
+                    <div class="inst">
+                      <img src="../img/casino_entrance.png" class="img-responsive" alt="Reception entrance instructions" />
+                    </div>
                 </div>
             </div>
         </div>

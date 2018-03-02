@@ -2,8 +2,8 @@
 include("model.php");
 error_reporting(0);
 class Controller {
-  public const VALID_EMAIL_PATTERN = "/^[^@]*@[^@]*\.[^@]*$/";
-  public const VALID_PHONE_PATTERN = "/^[0-9]{10}$/";
+  const VALID_EMAIL_PATTERN = "/^[^@]*@[^@]*\.[^@]*$/";
+  const VALID_PHONE_PATTERN = "/^[0-9]{10}$/";
   public function Controller() {
   }
   protected function adjustQuotes() {
@@ -52,7 +52,7 @@ class Controller {
     if ($attending == true) {
       if ($this->getArg('partysize') != NULL) {
         $partySize = $this->getArg('partysize');
-        if (!is_numeric($partySize) || $partySize < 0 || $partySize > 10) {
+        if (!is_numeric($partySize) || $partySize < 1 || $partySize > 10) {
           $msg .= "* Invalid party size given\n";
         }
       } else {

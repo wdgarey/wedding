@@ -3,8 +3,8 @@ include("model.php");
 //error_reporting(0);
 error_reporting(E_ALL);
 class Controller {
-  public const VALID_EMAIL_PATTERN = "/^[^@]*@[^@]*\.[^@]*$/";
-  public const VALID_PHONE_PATTERN = "/^[0-9]{10}$/";
+  const VALID_EMAIL_PATTERN = "/^[^@]*@[^@]*\.[^@]*$/";
+  const VALID_PHONE_PATTERN = "/^[0-9]{10}$/";
   public function Controller() {
   }
   protected function adjustQuotes() {
